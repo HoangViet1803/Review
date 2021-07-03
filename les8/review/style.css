@@ -1,0 +1,12 @@
+.container {
+    width: 600px;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    border: 1px;
+    ;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <table class="container" align="center">
+        <tr>
+            <!-- Line 1 -->
+            <td>
+                <table style="padding: 10px 30px; vertical-align: top; border-bottom: 1px solid rgb(155, 153, 153);">
+                    <tr style="vertical-align: top;">
+                        <td>
+                            <img src="imac-24.jpg" alt=""><br>
+                            <a style="margin: 15px 25px 0px 25px;" href="#">Xóa</a>
+                        </td>
+                        <td style="margin: 0; vertical-align: top;">
+                            <h3 style="margin: 0 10px;" class="name"><a href="#" style="text-decoration: none;">iMac 24 inch 2021 4.5K Retina M1 8-core/512GB/8Gb/8-core/GPU/Bàn phím & Chuột (MGPL3SA/A)</a></h3>
+                            <p style="margin: 16px 10px;" class="color">Màu: Xanh dương</p>
+                        </td>
+                        <td align="center">
+                            <span style="color: red;">45.990.000₫</span>
+                            <span><del>46.990.000₫</del></span><br>
+                            <input type="submit" value="-" name="" id="">
+                            <input type="text" style="width:18px;" name="" id="">
+                            <input type="submit" value="+">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <!-- Line 2 -->
+            <td>
+                <table style="padding: 10px 30px; vertical-align: top; border-bottom: 1px solid rgb(155, 153, 153); width: 100%;">
+                    <tr>
+                        <td colspan="2">
+                            <span>Sử dụng mã giảm giá</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Tạm tính (1 sản phẩm):</span>
+                        </td>
+                        <td align="right">
+                            <span style="color:black;">45.990.000₫</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">Tổng tiền:</td>
+                        <td align="right"><span style="color: red; font-weight: bold;">45.990.000₫</span></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <!-- Line 3 -->
+            <td colspan="2">
+                <table style="padding: 10px 30px; vertical-align: top; border-bottom: 1px solid rgb(155, 153, 153); width: 100%;">
+                    <tr>
+                        <td>
+                            <form action="#">
+                                <span>Thông tin khách hàng:</span><br><br>
+                                <input type="radio" name="sex" id="gt1"><label for="gt1">Anh</label>
+                                <input type="radio" name="sex" id="gt2"><label for="gt2">Chị</label>
+                                <br><br>
+                                <input style="width: 44.7%; height: 18px;padding: 10px; border-radius: 5px;" type="text" autofocus placeholder="Họ và tên" required>
+                                <input style="width: 45.5%; height: 18px;padding: 10px; border-radius: 5px;" type="tel" placeholder="Số điện thoại" pattern="[0-9]{10,11}" required>
+                                <br><br>
+                                <span>Chọc cách thức nhận hàng:</span> <br><br>
+                                <input type="radio" name="method" id="way1"><label for="way1">Giao tận nơi</label>
+                                <input type="radio" name="method" id="way2"><label for="way2">Nhận tại siêu thị</label>
+                                <br><br>
+                                <fieldset style="margin: 0px; display: inline-block;">
+                                    <p>Chọn địa chỉ để biết thời gian nhận hàng và phí vận chuyển (nếu có)</p>
+                                    <select style="width:49%; height: 40px; border-radius:5px; padding: 10px;" name="" id="">
+										<option value="">Hà Nội</option>
+										<option value="">Hồ Chí Minh</option>
+										<option value="">Nha Trang</option>
+										<option value="">Đà Nẵng</option>
+									</select>
+                                    <select style="width:49%; height: 40px; border-radius:5px; padding: 10px" name="" id="">
+										<option value="">Chọn Quận / Huyện</option>
+										<option value="">Chọn Quận / Huyện</option>
+										<option value="">Chọn Quận / Huyện</option>
+										<option value="">Chọn Quận / Huyện</option>
+									</select>
+                                    <select style="width:49%; height: 40px; border-radius:5px; padding: 10px" name="" id="">
+										<option value="">Chọn Phường / Xã</option>
+										<option value="">Chọn Phường / Xã</option>
+										<option value="">Chọn Phường / Xã</option>
+										<option value="">Chọn Phường / Xã</option>
+										<input style="width:222px; height: 15px; border-radius:5px; padding: 10px; margin: 15px 4px;" type="text" placeholder="Số nhà, tên đường" required>
+									</select>
+
+                                </fieldset>
+                                <br><br>
+                                <input style="width: 95.7%; height: 18px;padding: 10px; border-radius: 5px;" type="text" placeholder="Yêu cầu khác (không bắt buộc)">
+                                <br><br>
+                                <input type="checkbox" id="1.1"><label for="1.1">Gọi người khác nhận hàng (nếu có)</label>
+                                <br><br>
+                                <input type="checkbox" id="1.2"><label for="1.2">Xuất hóa đơn công ty</label>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="padding: 10px 30px; vertical-align: top; border-bottom: 1px solid rgb(155, 153, 153); width: 100%;">
+                    <tr>
+                        <td style="font-weight: bold;">Tổng tiền:</td>
+                        <td align="right"><span style="color: red; font-weight: bold;">45.990.000₫</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <br>
+                            <input style="width: 100%; height: 45px; border-radius: 5px; background-color:#fd8504; color: white; font-weight: bold; font-size: 18px;" type="submit" value="Đặt hàng">
+                            <br><br>
+                            <p align="center">Chỉ có thể chọn hình thức thanh toán sau khi đặt hàng</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
