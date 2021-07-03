@@ -1,0 +1,22 @@
+#khung_to {
+    width: 200px;
+    height: 150px;
+    background: #F67D7D;
+    margin: auto;
+    /* position: relative; */
+    /*vị trí của đối tượng so với vị trí mặc định của chính nó */
+    /* top: 100px;
+    left: 300px; */
+    position: fixed;
+    /* vị trí của đối tượng so với của sổ trình duyệt */
+}
+
+#khung_nho {
+    background: black;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    /* định nghĩa vị trí của đối tượng so với vị trí của phần tử cha được định vị */
+    right: 0;
+    bottom: 0;
+}
