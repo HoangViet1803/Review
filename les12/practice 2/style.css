@@ -1,0 +1,70 @@
+    .all {
+        width: 525px;
+        height: 900px;
+    }
+    
+    .line1,
+    .line2,
+    .line3 {
+        background-color: gray;
+    }
+    
+    .line1 {
+        width: 225px;
+        height: 300px;
+        margin: auto;
+    }
+    
+    .line2 {
+        width: 375px;
+        height: 300px;
+        margin: auto;
+    }
+    
+    .line3 {
+        width: 525px;
+        height: 300px;
+    }
+    
+    .ngang1,
+    .ngang2,
+    .ngang3 {
+        height: 75px;
+        background-color: red;
+    }
+    
+    .ngang1 {
+        width: 225px;
+    }
+    
+    .ngang2 {
+        width: 375px;
+    }
+    
+    .ngang3 {
+        width: 525px;
+    }
+    
+    .doc1,
+    .doc2,
+    .doc3 {
+        margin: auto;
+    }
+    
+    .doc1 {
+        width: 75px;
+        height: 225px;
+        background-color: white;
+    }
+    
+    .doc2 {
+        width: 225px;
+        height: 225px;
+        background-color: white;
+    }
+    
+    .doc3 {
+        width: 375px;
+        height: 225px;
+        background-color: white;
+    }

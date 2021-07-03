@@ -1,0 +1,40 @@
+.all {
+    width: 750px;
+    height: 300px;
+}
+
+.line {
+    width: 7500px;
+    height: 150px;
+}
+
+.red,
+.white,
+.yellow,
+.green,
+.blue,
+.violet {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.red {
+    background-color: rgb(204, 62, 62);
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.yellow {
+    background-color: rgb(241, 193, 70);
+}
+
+.blue {
+    background-color: rgb(48, 115, 231);
+}
+
+.violet {
+    background-color: rgb(130, 25, 179);
+}

@@ -1,0 +1,25 @@
+.all {
+    width: 450px;
+    height: 450px;
+}
+
+.line {
+    width: 450px;
+    height: 150px;
+}
+
+.xam,
+.trang {
+    width: 150px;
+    height: 150px;
+}
+
+.xam {
+    background-color: rgba(150, 152, 152, 0.904);
+    float: left;
+}
+
+.trang {
+    background-color: rgb(250, 250, 250);
+    float: left;
+}

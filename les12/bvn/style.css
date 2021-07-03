@@ -1,0 +1,119 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .head {
+                        width: 100%;
+                        height: 50px;
+                        background-color: red;
+                    }
+                    
+                    .tb1,
+                    .tb2 {
+                        margin: 0px 50px;
+                        height: 400px;
+                        background-color: royalblue;
+                    }
+                    
+                    .slide {
+                        width: 75%;
+                        height: 100%;
+                        background-color: blue;
+                        float: left;
+                    }
+                    
+                    .qc1 {
+                        width: 25%;
+                        height: 60%;
+                        background-color: green;
+                        display: inline;
+                        float: right;
+                    }
+                    
+                    .qc2 {
+                        width: 25%;
+                        height: 40%;
+                        background-color: yellow;
+                        float: right;
+                    }
+                    
+                    .column1,
+                    .column2 {
+                        width: 50%;
+                        height: 100%;
+                    }
+                    
+                    .column1 {
+                        float: left;
+                    }
+                    
+                    .column2 {
+                        float: right;
+                    }
+                    
+                    .left_up {
+                        height: 65%;
+                        width: 100%;
+                        background-color: green;
+                    }
+                    
+                    .rdr,
+                    .rdl {
+                        height: 35%;
+                        width: 50%;
+                    }
+                    
+                    .rdr {
+                        background-color: orange;
+                        float: left;
+                    }
+                    
+                    .rdl {
+                        float: right;
+                        background-color: rgb(247, 173, 210);
+                    }
+                    
+                    .ngang1 {
+                        width: 100%;
+                        height: 75%;
+                    }
+                    
+                    .ngang2 {
+                        width: 100%;
+                        height: 25%;
+                    }
+                    
+                    .square {
+                        width: 50%;
+                        height: 100%;
+                        background-color: orangered;
+                        float: left;
+                    }
+                    
+                    .rectangle_u {
+                        width: 50%;
+                        height: 45%;
+                        background-color: peru;
+                        float: right;
+                    }
+                    
+                    .rectangle_d {
+                        width: 50%;
+                        height: 55%;
+                        background-color: green;
+                        float: right;
+                    }
+                    
+                    .rectangle_e {
+                        width: 100%;
+                        height: 100%;
+                        background-color: hotpink;
+                        float: inline;
+                    }
+                    
+                    .end {
+                        height: 60px;
+                        margin: 0px 50px;
+                        background-color: blue;
+                    }
