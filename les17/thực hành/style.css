@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.all {
+    width: 1024px;
+    margin: auto;
+}
+
+header {
+    width: inherit;
+    height: 150px;
+}
+
+#logo {
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#banner {
+    width: 75%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+
+nav {
+    width: inherit;
+    height: 40px;
+    background: lawngreen;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+    font-size: 18px;
+}
+
+ul {
+    float: left;
+}
+
+ul>li {
+    display: inline;
+    line-height: 40px;
+    border-right: 2px solid black;
+}
+
+ul>li:last-child {
+    border-right: none;
+}
+
+form {
+    float: right;
+    width: 30%;
+    height: inherit;
+    line-height: 40px;
+    padding: 0 15px;
+}
+
+#search {
+    padding: 0 15px;
+    width: 260px;
+    height: 32px;
+    border-radius: 20px;
+}
+
+#section {
+    width: 1024px;
+    min-height: 700px;
+    background: lightblue;
+    padding-top: 5px;
+    /*dùng padding hoặc margin ngăn section và nav ms có thể dùng float */
+}
+
+#sidebar {
+    padding-top: 5px;
+    width: 20%;
+    min-height: 500px;
+    border: 1px solid black;
+    margin: 0 6px;
+    float: left;
+}
+
+#article {
+    padding-top: 5px;
+    margin-right: 5px;
+    width: 55%;
+    min-height: 600px;
+    border: 1px solid black;
+    float: left;
+}
+
+#aside {
+    /* padding-top: 5px; */
+    width: 20%;
+    /* border: 1px solid black; */
+    min-height: 700px;
+    float: left;
+}
+
+#aside form {
+    float: left;
+    margin: 0 5px 5px 5px;
+    width: 226px;
+    height: 200px;
+    border: 1px solid black;
+    padding-right: 5px;
+}
+
+#chart,
+#map {
+    padding-right: 5px;
+    float: left;
+    width: 226px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+footer {
+    background: rgb(245, 239, 187);
+    position: relative;
+    min-height: 50px;
+    bottom: 0;
+}
+
+span {
+    float: left;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+#bot {
+    float: right;
+}
+
+#bot>li {
+    line-height: 40px;
+}
+
+
+/* section {
+    width: 1024px;
+    min-height: 1100px;
+    background: #1325AB;
+    margin-top: 5px;
+}
+
+#sidebar {
+    width: 200px;
+    min-height: 500px;
+   background: #67F042;
+    float: left;
+    margin: 5px;
+}
+
+section #side1 {
+    width: 200xp;
+    height: 150px;
+    background: #AE9831;
+    margin-bottom: 5px;
+    border: solid 1px #AB9696;
+}
+
+section #side2 {
+    width: 200px;
+    height: 250px;
+    border: solid 1px #AB9696;
+    margin-top: 10px;
+    background: #807959;
+}
+
+article {
+    width: 600px;
+    min-height: 600px;
+    background: red;
+    float: left;
+}
+
+article #hotnews {
+    width: 290px;
+    height: 150px;
+    background: #63E6DB;
+    float: left;
+    margin: 5px;
+    border: solid 1px #AB9696;
+}
+
+article #photo {
+    width: 290px;
+    height: 150px;
+    background: #1AA397;
+    float: left;
+    margin: 5px;
+    border: solid 1px #AB9696;
+}
+
+article .news {
+    width: 290px;
+    height: 300px;
+    float: left;
+    background: #31CF38;
+    margin: 5px;
+    border: solid 1px #AB9696;
+    text-align: center;
+    line-height: 300px;
+    font-size: 32px;
+}
+
+aside {
+    width: 200px;
+    min-height: 600px;
+    background: #73993D;
+    float: left;
+    margin: 0 5px;
+}
+
+aside input,
+#chart,
+#map {
+    width: 200px;
+    height: 300px;
+    background: #B13434;
+    margin-top: 5px;
+    border: solid 1px #AB9696;
+    background: none;
+} */

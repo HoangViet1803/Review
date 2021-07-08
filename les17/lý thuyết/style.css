@@ -1,0 +1,24 @@
+p {
+    background: greenyellow;
+    height: 60px;
+}
+
+.hienthi0 {
+    display: block;
+}
+
+.hienthi1 {
+    display: inline;
+}
+
+.hienthi2 {
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
+.hienthi3 {
+    visibility: hidden;
+}
